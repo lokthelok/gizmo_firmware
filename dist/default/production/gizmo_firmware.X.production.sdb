@@ -1,0 +1,1151 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12LF1572 ]
+[d frameptr 6 ]
+"86 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/adc1.c
+[e E3025 . `uc
+channel_AN0 0
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"75 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\main.c
+[e E3499 . `uc
+green 1
+yellow 2
+red 3
+]
+"191 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[e E3126 . `uc
+channel_AN0 0
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"10 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\game.c
+[e E3469 . `uc
+green 1
+yellow 2
+red 3
+]
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\machine.c
+[e E3499 . `uc
+green 1
+yellow 2
+red 3
+]
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\flashValue.c
+[e E3499 . `uc
+green 1
+yellow 2
+red 3
+]
+"10 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _enableSerial enableSerial `(v  1 e 1 0 ]
+"17
+[v _disableSerial disableSerial `(v  1 e 1 0 ]
+[v i1_disableSerial disableSerial `(v  1 e 1 0 ]
+"30
+[v _stopLEDs stopLEDs `(v  1 e 1 0 ]
+"37
+[v _startLEDs startLEDs `(v  1 e 1 0 ]
+[v i1_startLEDs startLEDs `(v  1 e 1 0 ]
+"44
+[v _setLEDs setLEDs `(v  1 e 1 0 ]
+[v i1_setLEDs setLEDs `(v  1 e 1 0 ]
+"55
+[v _setupLEDs setupLEDs `(v  1 e 1 0 ]
+"73
+[v _setLED setLED `(v  1 e 1 0 ]
+"92
+[v _connectHandler connectHandler `(v  1 e 1 0 ]
+"119
+[v _buttonHandler buttonHandler `(v  1 e 1 0 ]
+"187
+[v _checkButtons checkButtons `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\flashValue.c
+[v _flashit flashit `(v  1 e 1 0 ]
+"19
+[v _flashValue flashValue `(v  1 e 1 0 ]
+"13 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\game.c
+[v _new_level new_level `(v  1 e 1 0 ]
+"32
+[v _game_initialise game_initialise `(v  1 e 1 0 ]
+"52
+[v _game_check_it game_check_it `(v  1 e 1 0 ]
+"76
+[v _game_topscore game_topscore `(uc  1 e 1 0 ]
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\machine.c
+[v _machine_led_flash machine_led_flash `(v  1 e 1 0 ]
+"15
+[v _machine_warn_user machine_warn_user `(v  1 e 1 0 ]
+"28
+[v _machine_notify_user machine_notify_user `(v  1 e 1 0 ]
+"31 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"65 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/adc1.c
+[v _ADC1_Initialize ADC1_Initialize `(v  1 e 1 0 ]
+"113
+[v _ADC1_GetConversion ADC1_GetConversion `(us  1 e 2 0 ]
+"56 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"78
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(a  1 e 1 0 ]
+"88
+[v _EUSART_is_tx_done EUSART_is_tx_done `(a  1 e 1 0 ]
+"93
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"111
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"52 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"64
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"148
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"60 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"125
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"142
+[v _IOCAF0_ISR IOCAF0_ISR `(v  1 e 1 0 ]
+"157
+[v _IOCAF0_SetInterruptHandler IOCAF0_SetInterruptHandler `(v  1 e 1 0 ]
+"164
+[v _IOCAF0_DefaultInterruptHandler IOCAF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"172
+[v _IOCAF5_ISR IOCAF5_ISR `(v  1 e 1 0 ]
+"187
+[v _IOCAF5_SetInterruptHandler IOCAF5_SetInterruptHandler `(v  1 e 1 0 ]
+"194
+[v _IOCAF5_DefaultInterruptHandler IOCAF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM1_Start PWM1_Start `(v  1 e 1 0 ]
+[v i1_PWM1_Start PWM1_Start `(v  1 e 1 0 ]
+"118
+[v _PWM1_Stop PWM1_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM1_LoadBufferSet PWM1_LoadBufferSet `(v  1 e 1 0 ]
+[v i1_PWM1_LoadBufferSet PWM1_LoadBufferSet `(v  1 e 1 0 ]
+"133
+[v _PWM1_PhaseSet PWM1_PhaseSet `(v  1 e 1 0 ]
+"139
+[v _PWM1_DutyCycleSet PWM1_DutyCycleSet `(v  1 e 1 0 ]
+[v i1_PWM1_DutyCycleSet PWM1_DutyCycleSet `(v  1 e 1 0 ]
+"145
+[v _PWM1_PeriodSet PWM1_PeriodSet `(v  1 e 1 0 ]
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM2_Start PWM2_Start `(v  1 e 1 0 ]
+[v i1_PWM2_Start PWM2_Start `(v  1 e 1 0 ]
+"118
+[v _PWM2_Stop PWM2_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM2_LoadBufferSet PWM2_LoadBufferSet `(v  1 e 1 0 ]
+[v i1_PWM2_LoadBufferSet PWM2_LoadBufferSet `(v  1 e 1 0 ]
+"133
+[v _PWM2_PhaseSet PWM2_PhaseSet `(v  1 e 1 0 ]
+"139
+[v _PWM2_DutyCycleSet PWM2_DutyCycleSet `(v  1 e 1 0 ]
+[v i1_PWM2_DutyCycleSet PWM2_DutyCycleSet `(v  1 e 1 0 ]
+"145
+[v _PWM2_PeriodSet PWM2_PeriodSet `(v  1 e 1 0 ]
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+"113
+[v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+[v i1_PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+"118
+[v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
+"128
+[v _PWM3_LoadBufferSet PWM3_LoadBufferSet `(v  1 e 1 0 ]
+[v i1_PWM3_LoadBufferSet PWM3_LoadBufferSet `(v  1 e 1 0 ]
+"133
+[v _PWM3_PhaseSet PWM3_PhaseSet `(v  1 e 1 0 ]
+"139
+[v _PWM3_DutyCycleSet PWM3_DutyCycleSet `(v  1 e 1 0 ]
+[v i1_PWM3_DutyCycleSet PWM3_DutyCycleSet `(v  1 e 1 0 ]
+"145
+[v _PWM3_PeriodSet PWM3_PeriodSet `(v  1 e 1 0 ]
+"64 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"157
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"169
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S149 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic12lf1572.h
+[s S158 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S163 . 1 `S149 1 . 1 0 `S158 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES163  1 e 1 @11 ]
+[s S1348 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"447
+[s S1355 . 1 `uc 1 PORTA 1 0 :6:0 
+]
+[u S1357 . 1 `S1348 1 . 1 0 `S1355 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES1357  1 e 1 @12 ]
+[s S293 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"503
+[u S301 . 1 `S293 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES301  1 e 1 @17 ]
+"619
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"639
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"659
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S1136 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"681
+[s S1145 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[u S1149 . 1 `S1136 1 . 1 0 `S1145 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1149  1 e 1 @24 ]
+"726
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+"914
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S968 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"988
+[u S976 . 1 `S968 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES976  1 e 1 @145 ]
+[s S28 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1100
+[s S37 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S42 . 1 `S28 1 . 1 0 `S37 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES42  1 e 1 @149 ]
+"1217
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1276
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1334
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1469
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1489
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1509
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S562 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1538
+[s S570 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S574 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S577 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S580 . 1 `S562 1 . 1 0 `S570 1 . 1 0 `S574 1 . 1 0 `S577 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES580  1 e 1 @157 ]
+"1598
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1664
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+"1712
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"1914
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2130
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2242
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2479
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2506
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2526
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2546
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S333 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2563
+[u S342 . 1 `S333 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES342  1 e 1 @413 ]
+"2608
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S312 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2625
+[u S321 . 1 `S312 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES321  1 e 1 @414 ]
+"2670
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"2722
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"2780
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"2833
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+[s S107 . 1 `uc 1 IOCAP0 1 0 :1:0 
+`uc 1 IOCAP1 1 0 :1:1 
+`uc 1 IOCAP2 1 0 :1:2 
+`uc 1 IOCAP3 1 0 :1:3 
+`uc 1 IOCAP4 1 0 :1:4 
+`uc 1 IOCAP5 1 0 :1:5 
+]
+"2962
+[s S114 . 1 `uc 1 IOCAP 1 0 :6:0 
+]
+[u S116 . 1 `S107 1 . 1 0 `S114 1 . 1 0 ]
+[v _IOCAPbits IOCAPbits `VES116  1 e 1 @913 ]
+[s S85 . 1 `uc 1 IOCAN0 1 0 :1:0 
+`uc 1 IOCAN1 1 0 :1:1 
+`uc 1 IOCAN2 1 0 :1:2 
+`uc 1 IOCAN3 1 0 :1:3 
+`uc 1 IOCAN4 1 0 :1:4 
+`uc 1 IOCAN5 1 0 :1:5 
+]
+"3020
+[s S92 . 1 `uc 1 IOCAN 1 0 :6:0 
+]
+[u S94 . 1 `S85 1 . 1 0 `S92 1 . 1 0 ]
+[v _IOCANbits IOCANbits `VES94  1 e 1 @914 ]
+[s S63 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"3078
+[s S70 . 1 `uc 1 IOCAF 1 0 :6:0 
+]
+[u S72 . 1 `S63 1 . 1 0 `S70 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES72  1 e 1 @915 ]
+"3573
+[v _PWM1PHL PWM1PHL `VEuc  1 e 1 @3473 ]
+"3651
+[v _PWM1PHH PWM1PHH `VEuc  1 e 1 @3474 ]
+"3736
+[v _PWM1DCL PWM1DCL `VEuc  1 e 1 @3475 ]
+"3814
+[v _PWM1DCH PWM1DCH `VEuc  1 e 1 @3476 ]
+"3899
+[v _PWM1PRL PWM1PRL `VEuc  1 e 1 @3477 ]
+"3977
+[v _PWM1PRH PWM1PRH `VEuc  1 e 1 @3478 ]
+"4062
+[v _PWM1OFL PWM1OFL `VEuc  1 e 1 @3479 ]
+"4140
+[v _PWM1OFH PWM1OFH `VEuc  1 e 1 @3480 ]
+"4225
+[v _PWM1TMRL PWM1TMRL `VEuc  1 e 1 @3481 ]
+"4303
+[v _PWM1TMRH PWM1TMRH `VEuc  1 e 1 @3482 ]
+"4381
+[v _PWM1CON PWM1CON `VEuc  1 e 1 @3483 ]
+[s S408 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 OE 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"4414
+[s S415 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM1MODE0 1 0 :1:2 
+`uc 1 PWM1MODE1 1 0 :1:3 
+]
+[s S419 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM1MODE 1 0 :2:2 
+`uc 1 PWM1POL 1 0 :1:4 
+`uc 1 PWM1OUT 1 0 :1:5 
+`uc 1 PWM1OE 1 0 :1:6 
+`uc 1 PWM1EN 1 0 :1:7 
+]
+[s S426 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 MODE0 1 0 :1:2 
+`uc 1 MODE1 1 0 :1:3 
+]
+[u S430 . 1 `S408 1 . 1 0 `S415 1 . 1 0 `S419 1 . 1 0 `S426 1 . 1 0 ]
+[v _PWM1CONbits PWM1CONbits `VES430  1 e 1 @3483 ]
+"4489
+[v _PWM1INTE PWM1INTE `VEuc  1 e 1 @3484 ]
+"4615
+[v _PWM1INTF PWM1INTF `VEuc  1 e 1 @3485 ]
+"4741
+[v _PWM1CLKCON PWM1CLKCON `VEuc  1 e 1 @3486 ]
+"4849
+[v _PWM1LDCON PWM1LDCON `VEuc  1 e 1 @3487 ]
+[s S458 . 1 `uc 1 LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 LDT 1 0 :1:6 
+`uc 1 LDA 1 0 :1:7 
+]
+"4876
+[s S463 . 1 `uc 1 PWM1LDS0 1 0 :1:0 
+`uc 1 PWM1LDS1 1 0 :1:1 
+]
+[s S466 . 1 `uc 1 PWM1LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM1LDM 1 0 :1:6 
+`uc 1 PWM1LD 1 0 :1:7 
+]
+[s S471 . 1 `uc 1 LDS0 1 0 :1:0 
+`uc 1 LDS1 1 0 :1:1 
+]
+[u S474 . 1 `S458 1 . 1 0 `S463 1 . 1 0 `S466 1 . 1 0 `S471 1 . 1 0 ]
+[v _PWM1LDCONbits PWM1LDCONbits `VES474  1 e 1 @3487 ]
+"4931
+[v _PWM1OFCON PWM1OFCON `VEuc  1 e 1 @3488 ]
+"5046
+[v _PWM2PHL PWM2PHL `VEuc  1 e 1 @3489 ]
+"5124
+[v _PWM2PHH PWM2PHH `VEuc  1 e 1 @3490 ]
+"5209
+[v _PWM2DCL PWM2DCL `VEuc  1 e 1 @3491 ]
+"5287
+[v _PWM2DCH PWM2DCH `VEuc  1 e 1 @3492 ]
+"5372
+[v _PWM2PRL PWM2PRL `VEuc  1 e 1 @3493 ]
+"5450
+[v _PWM2PRH PWM2PRH `VEuc  1 e 1 @3494 ]
+"5535
+[v _PWM2OFL PWM2OFL `VEuc  1 e 1 @3495 ]
+"5613
+[v _PWM2OFH PWM2OFH `VEuc  1 e 1 @3496 ]
+"5698
+[v _PWM2TMRL PWM2TMRL `VEuc  1 e 1 @3497 ]
+"5776
+[v _PWM2TMRH PWM2TMRH `VEuc  1 e 1 @3498 ]
+"5854
+[v _PWM2CON PWM2CON `VEuc  1 e 1 @3499 ]
+"5887
+[s S652 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM2MODE0 1 0 :1:2 
+`uc 1 PWM2MODE1 1 0 :1:3 
+]
+[s S656 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM2MODE 1 0 :2:2 
+`uc 1 PWM2POL 1 0 :1:4 
+`uc 1 PWM2OUT 1 0 :1:5 
+`uc 1 PWM2OE 1 0 :1:6 
+`uc 1 PWM2EN 1 0 :1:7 
+]
+[u S667 . 1 `S408 1 . 1 0 `S652 1 . 1 0 `S656 1 . 1 0 `S426 1 . 1 0 ]
+[v _PWM2CONbits PWM2CONbits `VES667  1 e 1 @3499 ]
+"5962
+[v _PWM2INTE PWM2INTE `VEuc  1 e 1 @3500 ]
+"6088
+[v _PWM2INTF PWM2INTF `VEuc  1 e 1 @3501 ]
+"6214
+[v _PWM2CLKCON PWM2CLKCON `VEuc  1 e 1 @3502 ]
+"6322
+[v _PWM2LDCON PWM2LDCON `VEuc  1 e 1 @3503 ]
+"6349
+[s S700 . 1 `uc 1 PWM2LDS0 1 0 :1:0 
+`uc 1 PWM2LDS1 1 0 :1:1 
+]
+[s S703 . 1 `uc 1 PWM2LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM2LDM 1 0 :1:6 
+`uc 1 PWM2LD 1 0 :1:7 
+]
+[u S711 . 1 `S458 1 . 1 0 `S700 1 . 1 0 `S703 1 . 1 0 `S471 1 . 1 0 ]
+[v _PWM2LDCONbits PWM2LDCONbits `VES711  1 e 1 @3503 ]
+"6404
+[v _PWM2OFCON PWM2OFCON `VEuc  1 e 1 @3504 ]
+"6519
+[v _PWM3PHL PWM3PHL `VEuc  1 e 1 @3505 ]
+"6597
+[v _PWM3PHH PWM3PHH `VEuc  1 e 1 @3506 ]
+"6682
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @3507 ]
+"6760
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @3508 ]
+"6845
+[v _PWM3PRL PWM3PRL `VEuc  1 e 1 @3509 ]
+"6923
+[v _PWM3PRH PWM3PRH `VEuc  1 e 1 @3510 ]
+"7008
+[v _PWM3OFL PWM3OFL `VEuc  1 e 1 @3511 ]
+"7086
+[v _PWM3OFH PWM3OFH `VEuc  1 e 1 @3512 ]
+"7171
+[v _PWM3TMRL PWM3TMRL `VEuc  1 e 1 @3513 ]
+"7249
+[v _PWM3TMRH PWM3TMRH `VEuc  1 e 1 @3514 ]
+"7327
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @3515 ]
+"7360
+[s S812 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM3MODE0 1 0 :1:2 
+`uc 1 PWM3MODE1 1 0 :1:3 
+]
+[s S816 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PWM3MODE 1 0 :2:2 
+`uc 1 PWM3POL 1 0 :1:4 
+`uc 1 PWM3OUT 1 0 :1:5 
+`uc 1 PWM3OE 1 0 :1:6 
+`uc 1 PWM3EN 1 0 :1:7 
+]
+[u S827 . 1 `S408 1 . 1 0 `S812 1 . 1 0 `S816 1 . 1 0 `S426 1 . 1 0 ]
+[v _PWM3CONbits PWM3CONbits `VES827  1 e 1 @3515 ]
+"7435
+[v _PWM3INTE PWM3INTE `VEuc  1 e 1 @3516 ]
+"7561
+[v _PWM3INTF PWM3INTF `VEuc  1 e 1 @3517 ]
+"7687
+[v _PWM3CLKCON PWM3CLKCON `VEuc  1 e 1 @3518 ]
+"7795
+[v _PWM3LDCON PWM3LDCON `VEuc  1 e 1 @3519 ]
+"7822
+[s S860 . 1 `uc 1 PWM3LDS0 1 0 :1:0 
+`uc 1 PWM3LDS1 1 0 :1:1 
+]
+[s S863 . 1 `uc 1 PWM3LDS 1 0 :2:0 
+`uc 1 . 1 0 :4:2 
+`uc 1 PWM3LDM 1 0 :1:6 
+`uc 1 PWM3LD 1 0 :1:7 
+]
+[u S871 . 1 `S458 1 . 1 0 `S860 1 . 1 0 `S863 1 . 1 0 `S471 1 . 1 0 ]
+[v _PWM3LDCONbits PWM3LDCONbits `VES871  1 e 1 @3519 ]
+"7877
+[v _PWM3OFCON PWM3OFCON `VEuc  1 e 1 @3520 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\rand.c
+[v _seed seed `ul  1 s 4 seed ]
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\game.c
+[v _game_level game_level `uc  1 s 1 game_level ]
+"9
+[v _top_score top_score `uc  1 s 1 top_score ]
+"10
+[v _moves moves `[100]E3469  1 s 100 moves ]
+"11
+[v _move_current move_current `uc  1 s 1 move_current ]
+"29 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\main.c
+[v _buttons buttons `[3]a  1 e 3 0 ]
+"56 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pin_manager.c
+[v _IOCAF0_InterruptHandler IOCAF0_InterruptHandler `*.37(v  1 e 2 0 ]
+"57
+[v _IOCAF5_InterruptHandler IOCAF5_InterruptHandler `*.37(v  1 e 2 0 ]
+"57 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"31 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"75
+[v main@button_pressed button_pressed `E3499  1 a 1 29 ]
+"83
+[v main@waitingForRelease waitingForRelease `a  1 a 1 28 ]
+"41
+[v main@waitingForButton waitingForButton `a  1 a 1 27 ]
+"97
+} 0
+"55 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _setupLEDs setupLEDs `(v  1 e 1 0 ]
+{
+[v setupLEDs@period period `us  1 p 2 8 ]
+"71
+} 0
+"30
+[v _stopLEDs stopLEDs `(v  1 e 1 0 ]
+{
+"35
+} 0
+"118 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v _PWM3_Stop PWM3_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"118 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v _PWM2_Stop PWM2_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"118 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v _PWM1_Stop PWM1_Stop `(v  1 e 1 0 ]
+{
+"121
+} 0
+"133 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v _PWM3_PhaseSet PWM3_PhaseSet `(v  1 e 1 0 ]
+{
+[v PWM3_PhaseSet@phaseCount phaseCount `us  1 p 2 0 ]
+"137
+} 0
+"145
+[v _PWM3_PeriodSet PWM3_PeriodSet `(v  1 e 1 0 ]
+{
+[v PWM3_PeriodSet@periodCount periodCount `us  1 p 2 0 ]
+"149
+} 0
+"133 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v _PWM2_PhaseSet PWM2_PhaseSet `(v  1 e 1 0 ]
+{
+[v PWM2_PhaseSet@phaseCount phaseCount `us  1 p 2 0 ]
+"137
+} 0
+"145
+[v _PWM2_PeriodSet PWM2_PeriodSet `(v  1 e 1 0 ]
+{
+[v PWM2_PeriodSet@periodCount periodCount `us  1 p 2 0 ]
+"149
+} 0
+"133 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v _PWM1_PhaseSet PWM1_PhaseSet `(v  1 e 1 0 ]
+{
+[v PWM1_PhaseSet@phaseCount phaseCount `us  1 p 2 0 ]
+"137
+} 0
+"145
+[v _PWM1_PeriodSet PWM1_PeriodSet `(v  1 e 1 0 ]
+{
+[v PWM1_PeriodSet@periodCount periodCount `us  1 p 2 0 ]
+"149
+} 0
+"28 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\machine.c
+[v _machine_notify_user machine_notify_user `(v  1 e 1 0 ]
+{
+"35
+[v machine_notify_user@val val `us  1 a 2 11 ]
+"30
+[v machine_notify_user@j j `us  1 a 2 13 ]
+[v machine_notify_user@i i `us  1 a 2 9 ]
+"41
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"76 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\game.c
+[v _game_topscore game_topscore `(uc  1 e 1 0 ]
+{
+"79
+} 0
+"52
+[v _game_check_it game_check_it `(v  1 e 1 0 ]
+{
+[v game_check_it@led led `E3469  1 a 1 wreg ]
+"53
+[v game_check_it@result result `a  1 a 1 25 ]
+"52
+[v game_check_it@led led `E3469  1 a 1 wreg ]
+[v game_check_it@led led `E3469  1 a 1 24 ]
+"72
+} 0
+"15 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\machine.c
+[v _machine_warn_user machine_warn_user `(v  1 e 1 0 ]
+{
+"17
+[v machine_warn_user@j j `uc  1 a 1 9 ]
+"26
+} 0
+"32 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\game.c
+[v _game_initialise game_initialise `(v  1 e 1 0 ]
+{
+"39
+[v game_initialise@randomThree randomThree `us  1 a 2 20 ]
+"37
+[v game_initialise@i i `uc  1 a 1 22 ]
+"46
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"27
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"13 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\game.c
+[v _new_level new_level `(v  1 e 1 0 ]
+{
+"25
+[v new_level@j j `uc  1 a 1 7 ]
+"30
+} 0
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\machine.c
+[v _machine_led_flash machine_led_flash `(v  1 e 1 0 ]
+{
+[v machine_led_flash@led led `E3499  1 a 1 wreg ]
+[v machine_led_flash@led led `E3499  1 a 1 wreg ]
+[v machine_led_flash@led led `E3499  1 a 1 6 ]
+"13
+} 0
+"19 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\flashValue.c
+[v _flashValue flashValue `(v  1 e 1 0 ]
+{
+[v flashValue@times times `uc  1 a 1 wreg ]
+[v flashValue@times times `uc  1 a 1 wreg ]
+"21
+[v flashValue@times times `uc  1 a 1 9 ]
+"34
+} 0
+"44 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _setLEDs setLEDs `(v  1 e 1 0 ]
+{
+[v setLEDs@led1 led1 `us  1 p 2 2 ]
+[v setLEDs@led2 led2 `us  1 p 2 4 ]
+[v setLEDs@led3 led3 `us  1 p 2 6 ]
+"53
+} 0
+"37
+[v _startLEDs startLEDs `(v  1 e 1 0 ]
+{
+"42
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v _PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v _PWM2_Start PWM2_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v _PWM1_Start PWM1_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"8 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\flashValue.c
+[v _flashit flashit `(v  1 e 1 0 ]
+{
+[v flashit@colour colour `E3499  1 a 1 wreg ]
+[v flashit@colour colour `E3499  1 a 1 wreg ]
+[v flashit@flash flash `uc  1 p 1 5 ]
+[v flashit@colour colour `E3499  1 a 1 7 ]
+"17
+} 0
+"73 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _setLED setLED `(v  1 e 1 0 ]
+{
+[v setLED@duty duty `us  1 p 2 2 ]
+[v setLED@LEDno LEDno `uc  1 p 1 4 ]
+"90
+} 0
+"128 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v _PWM3_LoadBufferSet PWM3_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM3_DutyCycleSet PWM3_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM3_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 0 ]
+"143
+} 0
+"128 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadBufferSet PWM2_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM2_DutyCycleSet PWM2_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM2_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 0 ]
+"143
+} 0
+"128 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v _PWM1_LoadBufferSet PWM1_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v _PWM1_DutyCycleSet PWM1_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v PWM1_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 0 ]
+"143
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 4 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 3 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 2 ]
+"18
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 3 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 1 ]
+"26
+} 0
+"187 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _checkButtons checkButtons `(v  1 e 1 0 ]
+{
+[v checkButtons@buttons buttons `*.4a  1 a 1 wreg ]
+"191
+[v checkButtons@adc adc `us  1 a 2 7 ]
+"192
+[v checkButtons@i i `uc  1 a 1 5 ]
+"187
+[v checkButtons@buttons buttons `*.4a  1 a 1 wreg ]
+"189
+[v checkButtons@buttons buttons `*.4a  1 a 1 6 ]
+"242
+} 0
+"17
+[v _disableSerial disableSerial `(v  1 e 1 0 ]
+{
+"21
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/adc1.c
+[v _ADC1_GetConversion ADC1_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC1_GetConversion@channel channel `E3025  1 a 1 wreg ]
+[v ADC1_GetConversion@channel channel `E3025  1 a 1 wreg ]
+"116
+[v ADC1_GetConversion@channel channel `E3025  1 a 1 3 ]
+"134
+} 0
+"50 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"74
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"64 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"180
+} 0
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"58 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"60 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"123
+} 0
+"187
+[v _IOCAF5_SetInterruptHandler IOCAF5_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCAF5_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"189
+} 0
+"157
+[v _IOCAF0_SetInterruptHandler IOCAF0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCAF0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"159
+} 0
+"64 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"56 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"65 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/adc1.c
+[v _ADC1_Initialize ADC1_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"52 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"157 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"167
+} 0
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"169
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+{
+"176
+} 0
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"185
+} 0
+"125 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"137
+} 0
+"172
+[v _IOCAF5_ISR IOCAF5_ISR `(v  1 e 1 0 ]
+{
+"182
+} 0
+"194
+[v _IOCAF5_DefaultInterruptHandler IOCAF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"197
+} 0
+"92 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _connectHandler connectHandler `(v  1 e 1 0 ]
+{
+"110
+} 0
+"44
+[v i1_setLEDs setLEDs `(v  1 e 1 0 ]
+{
+[v i1setLEDs@led1 led1 `us  1 p 2 2 ]
+[v i1setLEDs@led2 led2 `us  1 p 2 4 ]
+[v i1setLEDs@led3 led3 `us  1 p 2 6 ]
+"53
+} 0
+"37
+[v i1_startLEDs startLEDs `(v  1 e 1 0 ]
+{
+"42
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v i1_PWM3_Start PWM3_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v i1_PWM2_Start PWM2_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"113 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v i1_PWM1_Start PWM1_Start `(v  1 e 1 0 ]
+{
+"116
+} 0
+"128 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm3.c
+[v i1_PWM3_LoadBufferSet PWM3_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v i1_PWM3_DutyCycleSet PWM3_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v i1PWM3_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 0 ]
+"143
+} 0
+"128 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm2.c
+[v i1_PWM2_LoadBufferSet PWM2_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v i1_PWM2_DutyCycleSet PWM2_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v i1PWM2_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 0 ]
+"143
+} 0
+"128 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pwm1.c
+[v i1_PWM1_LoadBufferSet PWM1_LoadBufferSet `(v  1 e 1 0 ]
+{
+"131
+} 0
+"139
+[v i1_PWM1_DutyCycleSet PWM1_DutyCycleSet `(v  1 e 1 0 ]
+{
+[v i1PWM1_DutyCycleSet@dutyCycleCount dutyCycleCount `us  1 p 2 0 ]
+"143
+} 0
+"17 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v i1_disableSerial disableSerial `(v  1 e 1 0 ]
+{
+"21
+} 0
+"10
+[v _enableSerial enableSerial `(v  1 e 1 0 ]
+{
+"14
+} 0
+"78 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/eusart.c
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(a  1 e 1 0 ]
+{
+"81
+} 0
+"88
+[v _EUSART_is_tx_done EUSART_is_tx_done `(a  1 e 1 0 ]
+{
+"91
+} 0
+"111
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"118
+} 0
+"142 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\mcc_generated_files/pin_manager.c
+[v _IOCAF0_ISR IOCAF0_ISR `(v  1 e 1 0 ]
+{
+"152
+} 0
+"164
+[v _IOCAF0_DefaultInterruptHandler IOCAF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"167
+} 0
+"119 C:\Users\Lachlan\Documents\GitHub\gizmo_firmware.X\aj_hal.c
+[v _buttonHandler buttonHandler `(v  1 e 1 0 ]
+{
+"130
+} 0
